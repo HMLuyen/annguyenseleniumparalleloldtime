@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="com.report.ReporterManager">Report</listener>
+    </listeners>
+
+    <test name="Test demo" parallel="classes" thread-count="2">
+        <classes>
+            <!--<class name="demo.FirstRun" />-->
+            <!--<class name="demo.SecondRun" />-->
+            <class name="cukes.runners.FirstCukeRunner" />
+            <class name="cukes.runners.SecondCukeRunner" />
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

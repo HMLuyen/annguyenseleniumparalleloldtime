@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.report.ReporterManager"/>
+  </listeners>
+  <test thread-count="2" name="Test demo" parallel="classes">
+    <classes>
+      <class name="demo.FirstRun"/>
+      <class name="demo.SecondRun"/>
+    </classes>
+  </test> <!-- Test demo -->
+  <test name="Test demo(failed)" parallel="classes">
+    <classes>
+      <class name="demo.SecondRun">
+        <methods>
+          <include name="testClassSetUp"/>
+          <include name="testClassTearDown"/>
+          <include name="testCaseSetUp"/>
+          <include name="testCaseTearDown"/>
+        </methods>
+      </class> <!-- demo.SecondRun -->
+      <class name="demo.FirstRun">
+        <methods>
+          <include name="testClassSetUp"/>
+          <include name="test02_Method"/>
+          <include name="testClassTearDown"/>
+          <include name="testCaseSetUp"/>
+          <include name="testCaseTearDown"/>
+        </methods>
+      </class> <!-- demo.FirstRun -->
+    </classes>
+  </test> <!-- Test demo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

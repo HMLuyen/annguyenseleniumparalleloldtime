@@ -1,0 +1,59 @@
+{
+  "uid" : "87017a496c7f985a",
+  "name" : "test03_Method on [SecondRun passed=0 failed=0 skipped=0]",
+  "title" : "Test 03 method on  [SecondRun passed=0 failed=0 skipped=0]",
+  "time" : {
+    "start" : 1486433961950,
+    "stop" : 1486433963134,
+    "duration" : 1184
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "fe4e1fd7b53f6e78",
+    "name" : "Suite : Test demo",
+    "title" : "Suite : Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "host",
+    "value" : "admins-MacBook-4.local"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test demo"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test demo"
+  }, {
+    "name" : "thread",
+    "value" : "2307@admins-MacBook-4.local.pool-1-thread-2(12)"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test demo"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_Method"
+  }, {
+    "name" : "testClass",
+    "value" : "demo.SecondRun"
+  } ],
+  "parameters" : [ ]
+}

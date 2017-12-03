@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1486568791723" stop="1486568792867" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : SeleniumParallel</name>
+    <title>Default Suite : SeleniumParallel</title>
+    <test-cases>
+        <test-case start="1486568792781" stop="1486568792815" status="passed">
+            <name>feature[Adding]</name>
+            <description>Runs Cucumber Feature</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SeleniumParallel"/>
+                <label name="testClass" value="cukes.FirstCukeRunner"/>
+                <label name="testMethod" value="feature"/>
+                <label name="host" value="admins-MacBook-4.local"/>
+                <label name="thread" value="5308@admins-MacBook-4.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

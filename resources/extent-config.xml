@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>dark</theme>
+
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- title of the document -->
+        <documentTitle>ExtentReports 2.0</documentTitle>
+
+        <!-- report name - displayed at  p-nav -->
+        <reportName>Selenium Distribution Test Report</reportName>
+
+        <!-- report headline - displayed at top-nav, after reportHeadline -->
+        <reportHeadline></reportHeadline>
+
+        <!-- global date format override -->
+        <!-- defaults to yyyy-MM-dd -->
+        <dateFormat>dd/MM/yyyy</dateFormat>
+
+        <!-- global time format override -->
+        <!-- defaults to HH:mm:ss -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+
+                });
+            ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                pre {
+	                border: 1px solid #ebedef;
+                    border-radius: 3px;
+                    background-color: #f8f9fa;
+                    color: #222 !important;
+                    font-family: Consolas, monospace;
+                    font-size: 14px;
+                    margin: 10px 0px 10px 0px;
+                    padding: 7px 10px;
+                    white-space: pre-wrap;
+                }
+                .report-img {
+                    border: 1px solid #ebedef;
+                    cursor: zoom-in;
+                    width: 300px;
+                }
+                .test-steps th:nth-child(2), .test-steps td:nth-child(2) {
+                    text-align: right;
+                    max-width: 200px;
+                    width: 100px;
+                }
+                .test-steps th:first-child, .test-steps td:first-child {
+                    text-align: left !important;
+                    max-width: 200px;
+                    width: 100px;
+                }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>

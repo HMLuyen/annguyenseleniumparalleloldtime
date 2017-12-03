@@ -1,0 +1,62 @@
+{
+  "uid" : "1d8ef08d303184b",
+  "name" : "test02_Method on [FirstRun passed=0 failed=0 skipped=0]",
+  "title" : "Test 02 method on  [FirstRun passed=0 failed=0 skipped=0]",
+  "time" : {
+    "start" : 1486433969427,
+    "stop" : 1486433971901,
+    "duration" : 2474
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: ",
+    "stackTrace" : "java.lang.AssertionError: \n\tat org.testng.AssertJUnit.fail(AssertJUnit.java:59)\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)\n\tat demo.FirstRun.test02_Method(FirstRun.java:29)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "fe4e1fd7b53f6e78",
+    "name" : "Suite : Test demo",
+    "title" : "Suite : Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "host",
+    "value" : "admins-MacBook-4.local"
+  }, {
+    "name" : "thread",
+    "value" : "2307@admins-MacBook-4.local.pool-1-thread-1(11)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_Method"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test demo"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test demo"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test demo"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "demo.FirstRun"
+  } ],
+  "parameters" : [ ]
+}

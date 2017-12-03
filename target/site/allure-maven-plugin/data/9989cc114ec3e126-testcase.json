@@ -1,0 +1,59 @@
+{
+  "uid" : "9989cc114ec3e126",
+  "name" : "test01_Method on [FirstRun passed=0 failed=0 skipped=0]",
+  "title" : "Test 01 method on  [FirstRun passed=0 failed=0 skipped=0]",
+  "time" : {
+    "start" : 1486433961950,
+    "stop" : 1486433963134,
+    "duration" : 1184
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "fe4e1fd7b53f6e78",
+    "name" : "Suite : Test demo",
+    "title" : "Suite : Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "host",
+    "value" : "admins-MacBook-4.local"
+  }, {
+    "name" : "thread",
+    "value" : "2307@admins-MacBook-4.local.pool-1-thread-1(11)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_Method"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test demo"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test demo"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test demo"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "demo.FirstRun"
+  } ],
+  "parameters" : [ ]
+}

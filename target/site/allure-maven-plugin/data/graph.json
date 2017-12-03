@@ -1,0 +1,47 @@
+{
+  "testCases" : [ {
+    "uid" : "87017a496c7f985a",
+    "name" : "test03_Method on [SecondRun passed=0 failed=0 skipped=0]",
+    "title" : "Test 03 method on  [SecondRun passed=0 failed=0 skipped=0]",
+    "time" : {
+      "start" : 1486433961950,
+      "stop" : 1486433963134,
+      "duration" : 1184
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9989cc114ec3e126",
+    "name" : "test01_Method on [FirstRun passed=0 failed=0 skipped=0]",
+    "title" : "Test 01 method on  [FirstRun passed=0 failed=0 skipped=0]",
+    "time" : {
+      "start" : 1486433961950,
+      "stop" : 1486433963134,
+      "duration" : 1184
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1d8ef08d303184b",
+    "name" : "test02_Method on [FirstRun passed=0 failed=0 skipped=0]",
+    "title" : "Test 02 method on  [FirstRun passed=0 failed=0 skipped=0]",
+    "time" : {
+      "start" : 1486433969427,
+      "stop" : 1486433971901,
+      "duration" : 2474
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "a0fae9597df04e0a",
+    "name" : "test04_Method on [SecondRun passed=0 failed=0 skipped=0]",
+    "title" : "Test 04 method on  [SecondRun passed=0 failed=0 skipped=0]",
+    "time" : {
+      "start" : 1486433969671,
+      "stop" : 1486433970684,
+      "duration" : 1013
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

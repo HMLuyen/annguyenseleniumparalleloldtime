@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Another scenario",
+        "description": "",
+        "id": "post;another-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 688929085,
+              "error_message": "java.lang.NullPointerException\r\n\tat cukes.runners.steps.SearchTest.hai(SearchTest.java:31)\r\n\tat ✽.Given hai(src/test/resources/Post.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "hai",
+            "match": {
+              "location": "SearchTest.hai()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "hi",
+            "match": {
+              "location": "SearchTest.hi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "bye",
+            "match": {
+              "location": "SearchTest.bye()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "aaa",
+            "match": {
+              "location": "SearchTest.aaa()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Post",
+    "description": "",
+    "id": "post",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Post.feature"
+  }
+]

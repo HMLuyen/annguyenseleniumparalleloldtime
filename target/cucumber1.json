@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "search;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 654293858,
+              "error_message": "java.lang.NullPointerException\r\n\tat cukes.runners.steps.PostTest.the_input(PostTest.java:14)\r\n\tat ✽.Given the input \"2+2\"(src/test/resources/Search.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "the input \"2+2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2+2",
+                  "offset": 11
+                }
+              ],
+              "location": "PostTest.the_input(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the calculator is run Then the output should be \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 49
+                }
+              ],
+              "location": "SearchTest.the_calculator_is_run_Then_the_output_should_be(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "i see the bug",
+            "match": {
+              "location": "SearchTest.iSeeTheBug()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Search.feature"
+  }
+]
